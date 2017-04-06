@@ -1,0 +1,16 @@
+<!--<?xml version="1.0" encoding="UTF-8"?>-->
+<!--<beans xmlns="http://www.springframework.org/schema/beans"-->
+       <!--xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"-->
+       <!--xsi:schemaLocation="-->
+        <!--http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">-->
+    <!--&lt;!&ndash; IOC 将Happy 交给Spring管理 &ndash;&gt;-->
+    <!--<bean id="happy" class="main.java.IOC.happy">-->
+        <!--&lt;!&ndash; DI 从setInfo方法得知，Happy依赖info属性，注入            赋值&ndash;&gt;-->
+        <!--&lt;!&ndash;通过框架来赋值，不能用set()方法来赋值  &ndash;&gt;-->
+        <!--&lt;!&ndash;happyinfo 是set()提供的  &ndash;&gt;-->
+        <!--<property name="happyInfo" value="中秋快乐"></property>-->
+        <!--&lt;!&ndash; <property name="happyInfo">-->
+        <!--<value>中秋快乐</value>-->
+        <!--</property> &ndash;&gt;-->
+    <!--</bean>-->
+<!--</beans>-->
